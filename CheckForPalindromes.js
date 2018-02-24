@@ -4,8 +4,8 @@ function palindrome (str) {
   var newStr = str.replace(/[^a-z0-9]/ig, '');
   console.log(newStr);
   // to lowercase
-    newStr = newStr.toLowerCase();
-    console.log(newStr);
+  newStr = newStr.toLowerCase();
+  console.log(newStr);
   // palindrome
 
   return true;
