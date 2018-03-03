@@ -7,8 +7,15 @@
 // then the addition of the three dots does not add to the string length in determining the truncated string.
 
 function truncateString(str, num) {
-  // Clear out that junk in your trunk
-  return str;
+    // Clear out that junk in your trunk
+    if (num <= 3) {
+        str = str.substring(0, num);
+        str += "...";
+    } else if (num < str.length) {
+        str = str.substring(0, num - 3);
+        str += "...";
+    }
+    return str;
 }
 
-truncateString("A-tisket a-tasket A green and yellow basket", 11);
+console.log(truncateString("A-tisket a-tasket A green and yellow basket", 11));
