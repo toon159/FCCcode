@@ -11,8 +11,8 @@
 //  are present in "Alien".
 
 function mutation(arr) {
-    var first = arr[0];
-    var second = arr[1];
+    var first = arr[0].toLowerCase();
+    var second = arr[1].toLowerCase();
     for (var i = 0; i < second.length; i++) {
         var isExist = false;
         for (var j = 0; j < first.length; j++) {
@@ -29,3 +29,4 @@ function mutation(arr) {
 
 console.log(mutation(["hello", "hey"]));
 console.log(mutation(["hello", "heo"]));
+console.log(mutation(["hello", "Hello"]));
