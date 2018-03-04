@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6bf5c3de-153d-49a0-99f1-fd4cbe48e1f9" name="Default" comment="">
+    <list default="true" id="6bf5c3de-153d-49a0-99f1-fd4cbe48e1f9" name="Default" comment="finish slasher-flick challenge!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/basic-algorithm-scripting/slasher-flick.js" afterPath="$PROJECT_DIR$/basic-algorithm-scripting/slasher-flick.js" />
+      <change beforePath="$PROJECT_DIR$/basic-algorithm-scripting/mutations.js" afterPath="$PROJECT_DIR$/basic-algorithm-scripting/mutations.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/basic-algorithm-scripting/chunky-monkey.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="21" column="57" lean-forward="true" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+              <caret line="21" column="57" lean-forward="false" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -41,14 +41,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slasher-flick.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="slasher-flick.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic-algorithm-scripting/slasher-flick.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mutations.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/basic-algorithm-scripting/mutations.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="85" lean-forward="true" selection-start-line="9" selection-start-column="85" selection-end-line="9" selection-end-column="85" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -64,6 +74,7 @@
         <option value="$PROJECT_DIR$/basic-algorithm-scripting/truncate-a-string.js" />
         <option value="$PROJECT_DIR$/basic-algorithm-scripting/chunky-monkey.js" />
         <option value="$PROJECT_DIR$/basic-algorithm-scripting/slasher-flick.js" />
+        <option value="$PROJECT_DIR$/basic-algorithm-scripting/mutations.js" />
       </list>
     </option>
   </component>
@@ -119,6 +130,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/basic-algorithm-scripting/chunky-monkey.js" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
     <property name="nodejs.jest.jest_package" value="" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -137,7 +149,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.slasher-flick.js">
+  <component name="RunManager" selected="Node.js.mutations.js">
+    <configuration name="mutations.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="mutations.js" working-dir="$PROJECT_DIR$/basic-algorithm-scripting" />
     <configuration name="slasher-flick.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="slasher-flick.js" working-dir="$PROJECT_DIR$/basic-algorithm-scripting" />
     <configuration name="truncate-a-string.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="chunky-monkey.js" working-dir="$PROJECT_DIR$/basic-algorithm-scripting" />
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -148,14 +161,16 @@
       <arguments />
       <envs />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Node.js.truncate-a-string.js" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.slasher-flick.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.mutations.js" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.slasher-flick.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.truncate-a-string.js" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.mutations.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.slasher-flick.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.truncate-a-string.js" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +189,7 @@
       <updated>1519675698486</updated>
       <workItem from="1519675699696" duration="868000" />
       <workItem from="1520090544721" duration="229000" />
-      <workItem from="1520178234001" duration="1647000" />
+      <workItem from="1520178234001" duration="4376000" />
     </task>
     <task id="LOCAL-00001" summary="move files to basicAlgo folder">
       <created>1519675927097</created>
@@ -197,11 +212,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520179659381</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="finish slasher-flick challenge!">
+      <created>1520179897754</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1520179897754</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2744000" />
+    <option name="totallyTimeSpent" value="5473000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="0" width="1280" height="1040" extended-state="0" />
@@ -211,12 +233,12 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3351235" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957035" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31045407" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -241,11 +263,12 @@
     <MESSAGE value="move files to basicAlgo folder" />
     <MESSAGE value="finish truncate string challenge!" />
     <MESSAGE value="finish chunky-monkey challenge!" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish chunky-monkey challenge!" />
+    <MESSAGE value="finish slasher-flick challenge!" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish slasher-flick challenge!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -284,7 +307,7 @@
     <entry file="file://$PROJECT_DIR$/basic-algorithm-scripting/chunky-monkey.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="21" column="57" lean-forward="true" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+          <caret line="21" column="57" lean-forward="false" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -294,10 +317,18 @@
     <entry file="file://$PROJECT_DIR$/basic-algorithm-scripting/slasher-flick.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-algorithm-scripting/mutations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="85" lean-forward="true" selection-start-line="9" selection-start-column="85" selection-end-line="9" selection-end-column="85" />
+          <folding />
         </state>
       </provider>
     </entry>
