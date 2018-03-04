@@ -17,7 +17,7 @@ function mutation(arr) {
         var isExist = false;
         for (var j = 0; j < first.length; j++) {
             if (second[i] === first[j]) {
-               isExist = true;
+                isExist = true;
             }
         }
         if (isExist === false) {
