@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6bf5c3de-153d-49a0-99f1-fd4cbe48e1f9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/basic-algorithm-scripting/chunky-monkey.js" afterPath="$PROJECT_DIR$/basic-algorithm-scripting/chunky-monkey.js" />
+      <change beforePath="$PROJECT_DIR$/basic-algorithm-scripting/slasher-flick.js" afterPath="$PROJECT_DIR$/basic-algorithm-scripting/slasher-flick.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,11 +29,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chunky-monkey.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="chunky-monkey.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic-algorithm-scripting/chunky-monkey.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="21" column="57" lean-forward="true" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slasher-flick.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/basic-algorithm-scripting/slasher-flick.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -51,6 +63,7 @@
       <list>
         <option value="$PROJECT_DIR$/basic-algorithm-scripting/truncate-a-string.js" />
         <option value="$PROJECT_DIR$/basic-algorithm-scripting/chunky-monkey.js" />
+        <option value="$PROJECT_DIR$/basic-algorithm-scripting/slasher-flick.js" />
       </list>
     </option>
   </component>
@@ -124,7 +137,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.slasher-flick.js">
+    <configuration name="slasher-flick.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="slasher-flick.js" working-dir="$PROJECT_DIR$/basic-algorithm-scripting" />
     <configuration name="truncate-a-string.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="chunky-monkey.js" working-dir="$PROJECT_DIR$/basic-algorithm-scripting" />
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
@@ -134,9 +148,14 @@
       <arguments />
       <envs />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.truncate-a-string.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.slasher-flick.js" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.truncate-a-string.js" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.slasher-flick.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.truncate-a-string.js" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +174,7 @@
       <updated>1519675698486</updated>
       <workItem from="1519675699696" duration="868000" />
       <workItem from="1520090544721" duration="229000" />
-      <workItem from="1520178234001" duration="1404000" />
+      <workItem from="1520178234001" duration="1647000" />
     </task>
     <task id="LOCAL-00001" summary="move files to basicAlgo folder">
       <created>1519675927097</created>
@@ -171,11 +190,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520090751636</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finish chunky-monkey challenge!">
+      <created>1520179659381</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1520179659381</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2501000" />
+    <option name="totallyTimeSpent" value="2744000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="0" width="1280" height="1040" extended-state="0" />
@@ -214,10 +240,13 @@
     <MESSAGE value="add to folder" />
     <MESSAGE value="move files to basicAlgo folder" />
     <MESSAGE value="finish truncate string challenge!" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish truncate string challenge!" />
+    <MESSAGE value="finish chunky-monkey challenge!" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish chunky-monkey challenge!" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -256,6 +285,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="57" lean-forward="true" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-algorithm-scripting/slasher-flick.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
