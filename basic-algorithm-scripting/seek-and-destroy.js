@@ -3,8 +3,11 @@
 //   that are of the same value as these arguments.
 
 function destroyer(arr) {
-  // Remove all the values
+for (var i = 1; i < arguments.length; i++) {
+  // arguments[i]
+  arr = arr.filter(int => int != arguments[i]);
+}
   return arr;
 }
 
-destroyer([1, 2, 3, 1, 2, 3], 2, 3);
+console.log(destroyer([1, 2, 3, 1, 2, 3], 2, 3));
