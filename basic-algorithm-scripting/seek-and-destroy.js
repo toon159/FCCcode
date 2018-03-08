@@ -4,7 +4,6 @@
 
 function destroyer(arr) {
 for (var i = 1; i < arguments.length; i++) {
-  // arguments[i]
   arr = arr.filter(int => int != arguments[i]);
 }
   return arr;

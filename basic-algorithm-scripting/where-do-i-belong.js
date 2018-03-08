@@ -9,8 +9,12 @@
 //   19 is less than 20 (index 2) and greater than 5 (index 1).
 
 function getIndexToIns(arr, num) {
-  // Find my place in this sorted array.
+  arr = arr.push(num);
+  // sort
+
+console.log(arr);
+
   return num;
 }
 
-getIndexToIns([40, 60], 50);
+console.log(getIndexToIns([40, 60], 50));
