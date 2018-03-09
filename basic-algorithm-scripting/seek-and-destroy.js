@@ -3,8 +3,16 @@
 //   that are of the same value as these arguments.
 
 function destroyer(arr) {
-  // Remove all the values
+  console.log(arr);
+  var newArr = [1,2,3,4,5];
   return arr;
 }
 
-destroyer([1, 2, 3, 1, 2, 3], 2, 3);
+function isEnemy(enemy) {
+  if (enemy == 3) {
+    return false;
+  }
+  return true;
+}
+
+console.log(destroyer([1, 2, 3, 1, 2, 3], 2, 3));
